@@ -3,10 +3,10 @@ local httpService = game:GetService("HttpService")
 local InterfaceManager = {} do
 	InterfaceManager.Folder = "FluentSettings"
     InterfaceManager.Settings = {
-        Theme = "8bit",
+        Theme = "Astral",
         Acrylic = false,
         Transparency = false,
-        MenuKeybind = "RightShift"
+        MenuKeybind = "V"
     }
 
     function InterfaceManager:SetFolder(folder)
